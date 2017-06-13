@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托_deleget", "委托_de
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csproj", "{EE18A410-74F0-4D6E-86D6-4E3B4512A2CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异步_Async", "异步_Async\异步_Async.csproj", "{069AB3AF-8226-4F94-92CB-259C53062FED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EE18A410-74F0-4D6E-86D6-4E3B4512A2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE18A410-74F0-4D6E-86D6-4E3B4512A2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE18A410-74F0-4D6E-86D6-4E3B4512A2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069AB3AF-8226-4F94-92CB-259C53062FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069AB3AF-8226-4F94-92CB-259C53062FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069AB3AF-8226-4F94-92CB-259C53062FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069AB3AF-8226-4F94-92CB-259C53062FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
