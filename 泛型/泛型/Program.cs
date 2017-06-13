@@ -19,9 +19,11 @@ namespace 泛型
             showPutIn<string>("I'm a string");
             //         <T>      (T parm)
 
+            //类对象初始化器
+            sunA AA = new sunA() { age = 99, name = "hi", hight = 99.9 };
 
-
-
+            //把 Parent 子类 sunA 的实例 AA 传入泛型参数
+            whoRU(AA);
         }
         // T 是一个类型参数，只有在函数被调用时才能确定
         // 没有类型的转换过程，比用object装箱拆箱效率高
@@ -29,7 +31,7 @@ namespace 泛型
         {
             Console.WriteLine("{0} is {1}", parm, parm.GetType());
         }
-        
+
         //泛型约束
         //不约束时，SUN可以是任何类型，且parm里只有object的方法
         //通过where SUN : Parent约束后,则只能传入Parent或Parent的子类
@@ -40,7 +42,12 @@ namespace 泛型
         }
     }
 
-    class Parent { public string name; }
+    class Parent
+    {
+        public string name;
+        public int age;
+        public double hight;
+    }
     class sunA : Parent { }
     class sunB : Parent { }
 }
