@@ -1,6 +1,8 @@
-﻿using System;
+﻿using HuaTong.General.Utility;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Management;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +12,8 @@ namespace 获取本地硬件信息
     {
         static void Main(string[] args)
         {
+            ComputerInfo.getInfo();
+           
         }
     }
 }
