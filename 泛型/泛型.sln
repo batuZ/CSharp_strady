@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异步_Async", "异步_Async\异步_Async.csproj", "{069AB3AF-8226-4F94-92CB-259C53062FED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程_Task", "多线程\多线程_Task.csproj", "{A17A9414-07A1-4932-9C63-74B06CF3A2A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取本地硬件信息", "获取本地硬件信息\获取本地硬件信息.csproj", "{10E47F07-3ECD-4F9D-BC11-32FE07692394}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{069AB3AF-8226-4F94-92CB-259C53062FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{069AB3AF-8226-4F94-92CB-259C53062FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{069AB3AF-8226-4F94-92CB-259C53062FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17A9414-07A1-4932-9C63-74B06CF3A2A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17A9414-07A1-4932-9C63-74B06CF3A2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17A9414-07A1-4932-9C63-74B06CF3A2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17A9414-07A1-4932-9C63-74B06CF3A2A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E47F07-3ECD-4F9D-BC11-32FE07692394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E47F07-3ECD-4F9D-BC11-32FE07692394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E47F07-3ECD-4F9D-BC11-32FE07692394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E47F07-3ECD-4F9D-BC11-32FE07692394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
