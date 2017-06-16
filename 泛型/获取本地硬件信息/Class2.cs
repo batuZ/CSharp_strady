@@ -126,13 +126,13 @@ namespace HuaTong.General.Utility
         {
             StringBuilder sr = new StringBuilder();
             sr.AppendFormat("机器名:{0};操作系统:{1};系统文件夹:{2};语言:{3};.NET:{4};当前目录:{5};当前用户:{6};",
-                Environment.MachineName,
-                Environment.OSVersion,
-                Environment.SystemDirectory,
-                CultureInfo.InstalledUICulture.EnglishName,
-                Environment.Version,
-                Environment.CurrentDirectory,
-                Environment.UserName);
+                Environment.MachineName,//机器名
+                Environment.OSVersion,//操作系统
+                Environment.SystemDirectory,//系统文件夹
+                CultureInfo.InstalledUICulture.EnglishName,//语言
+                Environment.Version,//.NET
+                Environment.CurrentDirectory,//当前目录
+                Environment.UserName);//当前用户
             return sr.ToString();
         }
 

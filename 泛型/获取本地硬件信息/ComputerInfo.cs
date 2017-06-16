@@ -20,12 +20,12 @@ namespace 获取本地硬件信息
             HardDesk();
             File.WriteAllLines(@"d:\ttt.txt", strList.ToArray());
         }
-        
-      
+
+
         /// <summary>
         /// CPU
         /// </summary>
-         static void CPU()
+        static void CPU()
         {
             Dictionary<string, string> ttt = new Dictionary<string, string>();
             ManagementObjectCollection cpus = new ManagementObjectSearcher("SELECT * FROM Win32_Processor").Get();
@@ -53,7 +53,7 @@ namespace 获取本地硬件信息
         /// <summary>
         /// 内存
         /// </summary>
-         static void Memory()
+        static void Memory()
         {
             ManagementObjectCollection memo = new ManagementObjectSearcher("SELECT * FROM Win32_PhysicalMemory").Get();
             double capacity = 0;

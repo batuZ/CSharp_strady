@@ -12,8 +12,7 @@ namespace 获取本地硬件信息
     {
         static void Main(string[] args)
         {
-            ComputerInfo.getInfo();
-           
+         string d=   MachineNumber.OSInfo();
         }
     }
 }
