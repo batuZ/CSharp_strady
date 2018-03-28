@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程_Task", "多线程
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "获取本地硬件信息", "获取本地硬件信息\获取本地硬件信息.csproj", "{10E47F07-3ECD-4F9D-BC11-32FE07692394}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程池_ThreadPool", "线程池\线程池_ThreadPool\线程池_ThreadPool.csproj", "{32A1212B-2823-413D-BC88-1554C171F5AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{10E47F07-3ECD-4F9D-BC11-32FE07692394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10E47F07-3ECD-4F9D-BC11-32FE07692394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10E47F07-3ECD-4F9D-BC11-32FE07692394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A1212B-2823-413D-BC88-1554C171F5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A1212B-2823-413D-BC88-1554C171F5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A1212B-2823-413D-BC88-1554C171F5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A1212B-2823-413D-BC88-1554C171F5AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

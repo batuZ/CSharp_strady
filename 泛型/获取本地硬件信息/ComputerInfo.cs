@@ -64,6 +64,19 @@ namespace 获取本地硬件信息
             strList.Add(temp);
         }
         /// <summary>
+        /// 可用内存
+        /// </summary>
+        static void Available()
+        {
+            ManagementObjectCollection available = new ManagementClass("Win32_PerfFormattedData_PerfOS_Memory").GetInstances();
+            double avaiMem = 0;
+            foreach (var item in available)
+            {
+                avaiMem += Convert.ToDouble(item["AvailableBytes"]);
+            }
+            string outPut = $"可用内存：{avaiMem / 1024 / 1024 / 1024:f3} GB";
+        }
+        /// <summary>
         /// 显卡
         /// </summary>
         static void Display()
